@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function find_cube(){
+            let number = document.getElementById("number").value;
+            alert(number*number*number);
+
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label>Enter No.</label>
+        <input type="text" name="number" id="number">
+        <input type="button" value = "cube" onclick="find_cube()"/>
+    </form>
+</body>
+</html>

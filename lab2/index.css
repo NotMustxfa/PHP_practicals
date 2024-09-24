@@ -1,0 +1,12 @@
+.mtk4 {
+    color: rgb(192, 155, 255) !important;
+}
+
+.titlebar-right{
+    display: none !important;
+}
+
+.titlebar-center{
+    display: none !important;
+}
+

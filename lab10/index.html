@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function show_form(){
+            let data = "Enter Name <input type = 'text' id = 'name'> <br> Comment: <textarea rows = '5' cols = '10'></textarea>"
+            document.getElementById("form_area").innerHTML = data;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" name="comment" id="comment" value="comment" onclick="show_form()">
+        <div id="form_area">
+
+        </div>
+    </form>
+</body>
+</html>
